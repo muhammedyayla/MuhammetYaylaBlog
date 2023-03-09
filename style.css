@@ -27,11 +27,23 @@ header nav .left a:hover {
   color: var(--primary);
 }
 header nav {
-  padding: 2rem 0;
+  padding: 2rem;
 }
 header nav .logo {
   margin-right: 1rem;
   border-radius: 100%;
+}
+header nav .right a{
+  padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px white transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  color: aqua;
+  border: 1px white;
 }
 
 body {
