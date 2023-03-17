@@ -189,6 +189,7 @@ section.services{
     .card img{
     width: 50px;
     background:white;
+    border-radius:10px ;
     }
     section.services .card-grid{
     display: grid;
