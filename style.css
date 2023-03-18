@@ -1,4 +1,3 @@
-@import "utilities.css";
 :root {
   --primary: rgb(29, 221, 189);
   --bgDark: rgb(12, 12, 12);
@@ -228,6 +227,24 @@ section.services{
     }
     section.services .card-grid .card:hover p{
     color: var(--white);
+    }
+    section.services .card-grid .card-link{
+      height: 100px;
+      padding: 25px;
+      border: 1px solid darkgrey;
+      text-align: center;
+      justify-items: center;
+      display: grid;
+      font-size: large;
+      text-decoration: none;
+      color: var(--bgDark);
+      border-radius: 10px;
+      position:relative;
+    }
+    section.services .card-grid .card-link:hover{
+      background-color: var(--bgDark);
+      color: white;
+      transition:ease-in-out 0.5s;
     }
 footer{
     background-color: var(--bgDark);
